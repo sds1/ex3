@@ -1,0 +1,322 @@
+/* ------------------ Fonts Bebas Neue Regular ------------------ */
+@font-face {
+  font-family: 'Bebas Neue Regular';
+  src: url("../fonts/BebasNeueRegular.eot"), url("../fonts/BebasNeueRegular.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+/* ------------------ Fonts Bebas Neue Bold ------------------ */
+@font-face {
+  font-family: 'Bebas Neue Bold';
+  src: url("../fonts/BebasNeueBold.eot"), url("../fonts/BebasNeueBold.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Bebas Neue Book';
+  src: url("../fonts/BebasNeueBook.eot"), url("../fonts/BebasNeueBook.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+/* ------------------ Base ------------------ */
+html {
+  min-height: 100%;
+  position: relative; }
+
+body {
+  -webkit-overflow-scrolling: touch;
+  -webkit-font-smoothing: antialiased;
+  margin-bottom: 150px; }
+
+* {
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease; }
+
+a {
+  color: #4d4d4d; }
+  a:hover, a :focus {
+    color: #69ACEB; }
+
+a:hover,
+a:focus,
+a:visited {
+  text-decoration: none; }
+
+p {
+  font-family: Trebuchet MS; }
+
+/* ------------------ Section header ------------------ */
+section.header {
+  padding: 20px 0; }
+  section.header .logo {
+    vertical-align: text-top; }
+  section.header nav {
+    padding: 30px 0 10px; }
+  section.header .navbar-nav > li > a {
+    text-transform: uppercase;
+    font-family: Bebas Neue Bold;
+    color: #4d4d4d;
+    font-size: 18px; }
+  section.header .nav.navbar-nav a:hover {
+    background-color: #f1f4f5; }
+  section.header #heart a:hover {
+    background-color: transparent; }
+    section.header #heart a:hover .fa.fa-heart {
+      -webkit-transform: rotateY(360deg);
+              transform: rotateY(360deg);
+      -webkit-transition: -webkit-transform 0.5s ease 0.1s;
+      transition: -webkit-transform 0.5s ease 0.1s;
+      transition: transform 0.5s ease 0.1s;
+      transition: transform 0.5s ease 0.1s, -webkit-transform 0.5s ease 0.1s; }
+  section.header span.heart-btn {
+    background-color: #ef5f60;
+    color: #fff;
+    font-size: 14px;
+    padding: 6px;
+    vertical-align: top; }
+
+/* ------------------ Section description ------------------ */
+section.description {
+  background-color: #F1F4F5; }
+  section.description h1 {
+    padding: 50px 0 0px;
+    font-family: "Bebas Neue Book"; }
+  section.description p {
+    padding: 0px 0 50px;
+    font-size: 13px; }
+
+/* ------------------ Section content ------------------ */
+section.content {
+  padding: 50px 0 20px; }
+  section.content h4 {
+    font-family: "Bebas Neue Bold";
+    font-size: 20px; }
+    section.content h4 span {
+      color: #EF5F60; }
+  section.content .gallery-items {
+    position: relative; }
+    section.content .gallery-items .caption {
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.8);
+      text-align: center;
+      opacity: 0;
+      color: #fff; }
+      section.content .gallery-items .caption h5 {
+        margin-top: 10%;
+        font-size: 18px;
+        font-family: "Bebas Neue Regular"; }
+      section.content .gallery-items .caption:hover h5 {
+        margin-top: 27%; }
+      section.content .gallery-items .caption a.btn-open {
+        border: none;
+        -webkit-border-radius: 0;
+                border-radius: 0;
+        background: #ef5f60;
+        color: #fff;
+        font-size: 18px;
+        padding: 7px 20px;
+        font-family: "Bebas Neue Bold"; }
+        section.content .gallery-items .caption a.btn-open:hover {
+          padding: 7px 28px; }
+    section.content .gallery-items:hover .caption {
+      opacity: 1; }
+    section.content .gallery-items .overlay {
+      left: 47%;
+      position: absolute;
+      top: 42%;
+      opacity: 0; }
+      section.content .gallery-items .overlay a:hover + img {
+        opacity: .3; }
+      section.content .gallery-items .overlay a {
+        color: #000;
+        font-size: 33px; }
+    section.content .gallery-items:hover .overlay {
+      opacity: 1; }
+  section.content button.btn-filter {
+    background: #ef5f60 none repeat scroll 0 0;
+    border: 2px solid transparent;
+    color: #fff;
+    font-family: Bebas Neue Bold;
+    font-size: 18px;
+    padding: 2px 7px;
+    text-transform: uppercase;
+    outline: none; }
+    section.content button.btn-filter:hover {
+      background: #c43435 none repeat scroll 0 0;
+      text-shadow: 0 0 1px #333; }
+  section.content img {
+    margin: 10px auto;
+    -webkit-box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.5);
+    cursor: pointer; }
+  section.content img:hover {
+    opacity: .3;
+    -webkit-box-shadow: 0 1px 3px 2px black;
+            box-shadow: 0 1px 3px 2px black; }
+  section.content .question {
+    text-align: center;
+    padding: 40px 0 20px; }
+    section.content .question h1 {
+      font-family: "Bebas Neue Book"; }
+  section.content button.btn-question {
+    background: #ef5f60 none repeat scroll 0 0;
+    border: 2px solid transparent;
+    color: #fff;
+    font-family: Bebas Neue Bold;
+    font-size: 18px;
+    margin-top: 20px;
+    padding: 2px 7px;
+    text-transform: uppercase;
+    outline: none; }
+    section.content button.btn-question:hover {
+      background: #c43435 none repeat scroll 0 0;
+      text-shadow: 0 0 1px #333; }
+    section.content button.btn-question i {
+      font-size: 14px;
+      vertical-align: middle;
+      padding: 0px 5px 0px 0px; }
+
+/* ------------------ Section activity ------------------ */
+section.activity h4 {
+  font-family: "Bebas Neue Bold";
+  font-size: 20px;
+  padding: 30px 0 0; }
+  section.activity h4 span {
+    color: #EF5F60; }
+
+section.activity p.headtext {
+  font-size: 15px; }
+
+section.activity .card {
+  padding: 30px 0 40px; }
+  section.activity .card:hover img {
+    -webkit-transform: rotateY(360deg);
+            transform: rotateY(360deg);
+    -webkit-transition: all 1.2s ease 0s;
+    transition: all 1.2s ease 0s; }
+  section.activity .card h4 {
+    font-size: 18px;
+    padding: 20px 0 0; }
+  section.activity .card p {
+    padding: 5px 10px; }
+  section.activity .card .iconbg {
+    background: #f1f4f5 none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+            border-radius: 50%;
+    content: "";
+    margin: 0 auto;
+    padding: 20px 20px 20px 23px;
+    width: 100px;
+    z-index: -3; }
+
+/* ------------------ Section journal------------------ */
+section.from-journal h4 {
+  font-family: "Bebas Neue Bold";
+  font-size: 20px;
+  padding: 30px 0 0; }
+  section.from-journal h4 span {
+    color: #EF5F60; }
+
+section.from-journal p.headtext {
+  padding: 0 0 15px 0;
+  font-size: 15px; }
+
+section.from-journal .journal-list {
+  padding: 15px 0; }
+
+section.from-journal .journal-card {
+  padding: 0 15px; }
+  section.from-journal .journal-card img {
+    -webkit-box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.5);
+            box-shadow: 0 1px 3px 2px rgba(0, 0, 0, 0.5);
+    opacity: .8; }
+  section.from-journal .journal-card:hover img {
+    opacity: 1; }
+  section.from-journal .journal-card:hover a {
+    color: #69ACEB; }
+
+section.from-journal .card-info {
+  margin: 0 0 0 -15px; }
+  section.from-journal .card-info h4 {
+    padding: 0; }
+  section.from-journal .card-info .date {
+    color: #888;
+    font-family: "Bebas Neue Regular";
+    font-size: 18px; }
+
+/* ------------------ Section footer ------------------ */
+section.footer {
+  background-color: #2D2D30;
+  bottom: 0;
+  height: 150px;
+  position: absolute;
+  width: 100%; }
+  section.footer p.copyright {
+    color: #929292;
+    padding: 30px 0; }
+  section.footer ul.social {
+    margin: 0;
+    padding: 0; }
+    section.footer ul.social li {
+      list-style: none;
+      display: inline;
+      font-size: 30px;
+      color: #fff;
+      padding: 0 10px; }
+      section.footer ul.social li a {
+        -webkit-transition: all 0.1s ease;
+        transition: all 0.1s ease; }
+
+/* ------------------ Media ------------------ */
+@media (min-width: 0px) and (max-width: 320px) {
+  section.header .navbar-toggle {
+    margin-right: 0; }
+  section.from-journal img {
+    margin-top: 20px; }
+  section.from-journal .journal-list {
+    padding: 0; }
+  section.from-journal .card-info {
+    margin: 0 0 0 15px;
+    padding-top: 15px; } }
+
+@media (min-width: 321px) and (max-width: 480px) {
+  section.header .navbar-toggle {
+    margin-right: 0; }
+  section.content .gallery-items {
+    margin: auto 20px; }
+  section.from-journal img {
+    margin-top: 20px; }
+  section.from-journal .journal-list {
+    padding: 0; }
+  section.from-journal .card-info {
+    margin: 0 0 0 15px;
+    padding-top: 15px; } }
+
+@media (min-width: 481px) and (max-width: 767px) {
+	section.header .navbar-toggle {
+    margin-right: 0; }
+  section.content .gallery-items {
+    width: 380px;
+    margin: 0 auto; }
+  section.activity .card p {
+    padding: 0 120px; }
+  section.from-journal img {
+    margin-top: 20px; }
+  section.from-journal .journal-list {
+    padding: 0; }
+  section.from-journal .card-info {
+    margin: 0 0 0 15px;
+    padding-top: 15px; } }
+
+@media (min-width: 769px) and (max-width: 992px) {
+  section.from-journal img {
+    margin-top: 20px; }
+  section.from-journal .journal-list {
+    padding: 0; }
+  section.from-journal .card-info {
+    margin: 0 0 0 15px;
+    padding-top: 15px; } }
