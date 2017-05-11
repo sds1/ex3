@@ -57,6 +57,7 @@ section.activity .card:hover img{-webkit-transform:rotateY(360deg);transform:rot
 section.activity .card h4{font-size:18px;padding:20px 0 0;}
 section.activity .card p{padding:5px 10px;}
 section.activity .card .iconbg{background:#f1f4f5 none repeat scroll 0 0;-webkit-border-radius:50%;border-radius:50%;content:"";margin:0 auto;padding:20px 20px 20px 23px;width:100px;z-index:-3;}
+section.from-journal {padding-bottom:40px;}
 section.from-journal h4{font-family:"Bebas Neue Bold";font-size:20px;padding:30px 0 0;}
 section.from-journal h4 span{color:#EF5F60;}
 section.from-journal p.headtext{padding:0 0 15px 0;font-size:15px;}
