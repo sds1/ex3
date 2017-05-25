@@ -8,7 +8,7 @@ Bootstrap
 @font-face {font-family:'Bebas Neue Book';src: url('../fonts/Bebas Neue Book.eot');src: url('../fonts/Bebas Neue Book.eot?#iefix') format('embedded-opentype'),url('../fonts/Bebas Neue Book.woff') format('woff'),url('../fonts/Bebas Neue Book.ttf') format('truetype');font-weight: 400;font-style: normal;font-stretch: normal;unicode-range: U+0020-0451;}
 html{min-height:100%;position:relative;}
 body{-webkit-overflow-scrolling:touch;-webkit-font-smoothing:antialiased;margin-bottom:150px;}
-*{-webkit-transition:all 0.4s ease;transition:all 0.4s ease;}
+
 a{color:#4d4d4d;}
 a:hover, a:focus{color:#69ACEB;}
 a:hover,
@@ -32,9 +32,9 @@ section.content h4 span{color:#EF5F60;}
 section.content .gallery-items{position:relative;}
 section.content .gallery-items .caption{position:absolute;top:0;right:0;left:0;bottom:0;background:rgba(0, 0, 0, 0.8);text-align:center;opacity:0;color:#fff;}
 section.content .gallery-items .caption h5{margin-top:10%;font-size:18px;font-family:"Bebas Neue Regular";}
-section.content .gallery-items .caption:hover h5{margin-top:27%;}
+section.content .gallery-items .caption:hover h5{margin-top:27%;-webkit-transition:all 0.4s ease;transition:all 0.4s ease;}
 section.content .gallery-items .caption a.btn-open{border:none;-webkit-border-radius:0;border-radius:0;background:#ef5f60;color:#fff;font-size:18px;padding:7px 20px;font-family:"Bebas Neue Bold";}
-section.content .gallery-items .caption a.btn-open:hover{padding:7px 28px;}
+section.content .gallery-items .caption a.btn-open:hover{padding:7px 28px;-webkit-transition:all 0.4s ease;transition:all 0.4s ease;}
 section.content .gallery-items:hover .caption{opacity:1;}
 section.content .gallery-items .overlay{left:47%;position:absolute;top:42%;opacity:0;}
 section.content .gallery-items .overlay a:hover + img{opacity:.3;}
@@ -64,8 +64,8 @@ section.from-journal p.headtext{padding:0 0 15px 0;font-size:15px;}
 section.from-journal .journal-list{padding:15px 0;}
 section.from-journal .journal-card{padding:0 15px;}
 section.from-journal .journal-card img{-webkit-box-shadow:0 1px 3px 2px rgba(0, 0, 0, 0.5);box-shadow:0 1px 3px 2px rgba(0, 0, 0, 0.5);opacity:.8;}
-section.from-journal .journal-card:hover img{opacity:1;}
-section.from-journal .journal-card:hover a{color:#69ACEB;}
+section.from-journal .journal-card:hover img{opacity:1;-webkit-transition:all 0.4s ease;transition:all 0.4s ease;}
+section.from-journal .journal-card:hover a{color:#69ACEB;-webkit-transition:all 0.4s ease;transition:all 0.4s ease;}
 section.from-journal .card-info{margin:0 0 0 -15px;}
 section.from-journal .card-info h4{padding:0;}
 section.from-journal .card-info .date{color:#888;font-family:"Bebas Neue Regular";font-size:18px;}
